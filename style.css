@@ -9,6 +9,7 @@ body {
     background: #171717;
     color: #999;
     font: 100%/18px helvetica, arial, sans-serif;
+    margin-left: 0;
 }
 canvas {
     vertical-align: middle;
@@ -61,12 +62,12 @@ h1{
   }
 
 .reference {
-    color: #4c5e79;
+    color: #516583;
     text-decoration: none;
 }
 
 a {
-    color: #344661;
+    color: #384963;
     text-decoration: none;
 }
 

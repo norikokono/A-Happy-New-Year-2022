@@ -32,6 +32,7 @@ canvas:active {
 h1{
     text-align: center;
     font-size: 5rem;
+    margin-top: 1rem;
 }
 
 #loader {
@@ -59,7 +60,31 @@ h1{
     100% { transform: rotate(360deg); }
   }
 
-a {
-    color: #45628f;
+.reference {
+    color: #4c5e79;
     text-decoration: none;
 }
+
+a {
+    color: #344661;
+    text-decoration: none;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_glowing_text */
+span {
+    font-size: 110px;
+    color: #fff;
+    /* text-align: center; */
+    margin-left: 2rem;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
